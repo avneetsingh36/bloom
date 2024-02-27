@@ -1,9 +1,17 @@
 /* Symptoms.css */
+
+.symptom-box {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #aaa1c8; /* Rose quartz color for the box */
+  border-radius: 5px;
+}
+
 .symptoms-container {
   display: flex;
-  justify-content: space-around; /* Distributes space evenly around items */
-  padding: 15px;
-  background-color: #d5c6e0; /* Thistle color for the background */
+  justify-content: space-around;
+  margin-bottom: 15px;
 }
 
 .symptom-button {
@@ -15,6 +23,45 @@
   color: #aaa1c8; /* Rose quartz color for the button text */
   cursor: pointer;
   text-transform: uppercase;
-  font-weight: bold; /* Optional: makes the text bold */
-  text-align: center; /* Ensures text is centered */
+  font-weight: bold;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.symptom-button.active {
+  background-color: #d5c6e0; /* Slightly darker color to indicate active state */
+  color: #fff;
+}
+
+.severity-slider {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.severity-slider label {
+  margin-right: 10px;
+}
+
+.severity-slider input[type="range"] {
+  flex-grow: 1;
+}
+
+.save-button {
+  padding: 8px 16px; /* Smaller padding for a smaller button */
+  border: none;
+  border-radius: 5px;
+  background-color: #f5e6eb;
+  color: #aaa1c8;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  align-self: center; /* Aligns the button to the center of the flex container */
+}
+
+.save-button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: not-allowed;
 }
