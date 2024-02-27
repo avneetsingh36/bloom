@@ -1,0 +1,32 @@
+/* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5e6eb; /* Lavender blush background */
+  padding: 0 20px;
+  height: 100px; /* Fixed height for the header */
+}
+
+.logo {
+  height: 100%;
+  object-fit: contain; /* Prevents the image from stretching */
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: #aaa1c8; /* Rose quartz color for the title text */
+}
+
+.sign-on-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #d5c6e0; /* Thistle color for the button */
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase; /* Optional: makes the text uppercase */
+}

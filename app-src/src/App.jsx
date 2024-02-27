@@ -1,7 +1,13 @@
-import Title from "./components/Title.jsx";
+import Header from "./Components/Header/Header.jsx";
+import Symptoms from "./Components/Symptoms/Symptoms.jsx";
 
 function App() {
-  return <Title />;
+  return (
+    <>
+      <Header />
+      <Symptoms />
+    </>
+  );
 }
 
 export default App;
