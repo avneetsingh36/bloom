@@ -15,10 +15,10 @@
 }
 
 .symptom-button {
-  padding: 10px;
+  padding: 10px; /* Some padding for spacing on the inside*/
   width: 120px; /* Fixed width for all buttons */
-  border: none;
-  border-radius: 5px;
+  border: none; /* Having this ensures that we will have a border or none*/
+  border-radius: 5px; /* This will help us ensure that we have a border radius of 5px*/
   background-color: #f5e6eb; /* Lavender blush color for the button */
   color: #aaa1c8; /* Rose quartz color for the button text */
   cursor: pointer;

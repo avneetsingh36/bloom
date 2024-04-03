@@ -4,22 +4,16 @@ import "./Symptoms.css";
 
 export default function Symptoms() {
   const symptoms = ["Cough", "Fever", "Fatigue", "Pain", "Anxiety"];
-
-  // State to track which symptom is selected
   const [selectedSymptom, setSelectedSymptom] = useState("");
-  // State to track the severity of the symptom
   const [severity, setSeverity] = useState(5);
 
-  // Function to handle clicking on a symptom button
   const handleSymptomClick = (symptom) => {
     setSelectedSymptom(symptom);
   };
 
-  // Function to handle saving the form
   const handleSave = () => {
     if (selectedSymptom) {
       console.log(`Symptom: ${selectedSymptom}, Severity: ${severity}`);
-      // Here you can add what to do with the form data, such as sending it to a server
     } else {
       console.error("No symptom selected");
     }
@@ -50,13 +44,13 @@ export default function Symptoms() {
           step="1"
           value={severity}
           onChange={(e) => setSeverity(e.target.value)}
-          disabled={!selectedSymptom} // Disable slider if no symptom is selected
+          disabled={!selectedSymptom}
         />
       </div>
       <button
         className="save-button"
         onClick={handleSave}
-        disabled={!selectedSymptom} // Disable save button if no symptom is selected
+        disabled={!selectedSymptom}
       >
         Save
       </button>

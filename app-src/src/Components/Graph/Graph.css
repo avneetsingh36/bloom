@@ -1,0 +1,15 @@
+/* Graph.css */
+.graph-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2%; /* Adjust the spacing between charts */
+}
+
+/* Adjust to stack on mobile/tablet and keep them square shaped */
+@media (max-width: 768px) {
+  .recharts-responsive-container {
+    width: 100% !important;
+    aspect-ratio: 1 !important;
+  }
+}
