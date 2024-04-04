@@ -11,4 +11,5 @@ export default function Header() {
       <button className="sign-on-button">Sign On</button>
     </header>
   );
+  // May want to consider adding a log in the header
 }
