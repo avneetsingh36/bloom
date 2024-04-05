@@ -3,6 +3,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
   gap: 2%; /* Adjust the spacing between charts */
 }
 
