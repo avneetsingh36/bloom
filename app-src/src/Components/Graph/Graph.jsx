@@ -34,7 +34,7 @@ export default function Graph() {
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Legend verticalAlign="top" wrapperStyle={{ top: 10, left: 25 }} />
+          <Legend verticalAlign="top" wrapperStyle={{ top: 5, left: 25 }} />
           <Line
             type="monotone"
             dataKey="uv"
@@ -54,7 +54,7 @@ export default function Graph() {
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Legend verticalAlign="top" wrapperStyle={{ top: 10, left: 25 }} />
+          <Legend verticalAlign="top" wrapperStyle={{ top: 5, left: 25 }} />
           <Line
             type="monotone"
             dataKey="uv"
