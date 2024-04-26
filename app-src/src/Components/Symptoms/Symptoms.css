@@ -12,11 +12,12 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .symptom-button {
-  padding: 10px; /* Some padding for spacing on the inside*/
-  width: 120px; /* Fixed width for all buttons */
+  padding: 15px; /* Some padding for spacing on the inside*/
+  width: 140px; /* Fixed width for all buttons */
   border: none; /* Having this ensures that we will have a border or none*/
   border-radius: 5px; /* This will help us ensure that we have a border radius of 5px*/
   background-color: #f5e6eb; /* Lavender blush color for the button */
@@ -49,7 +50,7 @@
 }
 
 .save-button {
-  padding: 8px 16px; /* Smaller padding for a smaller button */
+  padding: 16px 24px; /* Smaller padding for a smaller button */
   border: none;
   border-radius: 5px;
   background-color: #f5e6eb;
