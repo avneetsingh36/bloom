@@ -19,7 +19,7 @@ const dayHealthData = Array.from({ length: 8 }, (_, i) => ({
 }));
 const heartRateData = Array.from({ length: 8 }, (_, i) => ({
   name: `${i * 3}:00`,
-  uv: 60 + Math.random() * 30,
+  uv: 71,
 }));
 
 export default function Graph() {
